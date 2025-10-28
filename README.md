@@ -12,6 +12,20 @@ To run:
 npm start
 ```
 
+Endpoints:
+
+`POST http://localhost:3000/auth/login`
+body: {
+email:test@user.com
+password:password
+}
+
+`GET http://localhost:3000/providers/nearby?latitude=1.3521&longitude=103.8198`
+headers: {
+Accept:application/json
+Authorization:Bearer <token>
+}
+
 To run Testing:
 
 ```bash
